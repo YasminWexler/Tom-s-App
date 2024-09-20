@@ -2,8 +2,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
-# העתיקי את קבצי ה-projct והתקיני תלויות
-COPY *.csproj ./
+# העתיקי את קבצי הפרויקט והתקיני תלויות
+COPY TomWebApi/TomWebApi.csproj ./
 RUN dotnet restore
 
 # העתיקי את שאר הקבצים ובני את האפליקציה
