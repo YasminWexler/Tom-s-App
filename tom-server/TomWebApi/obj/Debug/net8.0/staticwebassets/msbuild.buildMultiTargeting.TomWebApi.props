@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TomWebApi.props" />
+</Project>
